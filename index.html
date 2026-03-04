@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre la magia de Medellín con tours personalizados, experiencias VIP, turismo cultural, Comuna 13, Guatapé y más. Reserva tu aventura hoy.">
+    <meta name="keywords" content="Medellín tours, turismo Medellín, Comuna 13, Guatapé, tours de café, parapente, experiencias VIP Colombia">
+    <meta name="author" content="Westcol Tours">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Westcol Tours - Descubre la Magia de Medellín">
+    <meta property="og:description" content="Tours personalizados y experiencias VIP en Medellín, Colombia">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://westcoltours.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Westcol Tours">
+    <meta name="twitter:description" content="Vive Medellín como nunca antes">
+    
+    <title>Westcol Tours | Tours Personalizados y Experiencias VIP en Medellín</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Westcol Tours Logo" onerror="this.style.display='none'; this.parentElement.querySelector('.logo-text-fallback').style.display='flex';">
+                <span class="logo-text-fallback" style="display: none;">
+                    <span class="logo-icon"><i class="fas fa-mountain"></i></span>
+                    <span class="logo-text">Westcol<span class="highlight">Tours</span></span>
+                </span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="nav-link active" data-lang="nav_home">Inicio</a></li>
+                    <li><a href="#nosotros" class="nav-link" data-lang="nav_about">Nosotros</a></li>
+                    <li><a href="#tours" class="nav-link" data-lang="nav_tours">Tours</a></li>
+                    <li><a href="#vip" class="nav-link" data-lang="nav_vip">VIP</a></li>
+                    <li><a href="#galeria" class="nav-link" data-lang="nav_gallery">Galería</a></li>
+                    <li><a href="#testimonios" class="nav-link" data-lang="nav_testimonials">Testimonios</a></li>
+                    <li><a href="#blog" class="nav-link" data-lang="nav_blog">Blog</a></li>
+                    <li><a href="#contacto" class="nav-link" data-lang="nav_contact">Contacto</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <!-- Language Switcher -->
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang-code="es">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Crect fill='%23AA151B' width='640' height='480'/%3E%3Crect fill='%23F1BF00' width='640' height='240' y='240'/%3E%3C/svg%3E" alt="Español" width="24">
+                            ES
+                        </button>
+                        <button class="lang-btn" data-lang-code="en">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Crect fill='%23012169' width='640' height='480'/%3E%3Cpath fill='%23FFF' d='M0 0h640v60H0zm0 180h640v60H0zm0 180h640v60H0z'/%3E%3Cpath fill='%23C8102E' d='M0 200h640v40H0zm0 180h640v40H0z'/%3E%3C/svg%3E" alt="English" width="24">
+                            EN
+                        </button>
+                    </div>
+                    
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="https://cdn.pixabay.com/video/2020/05/25/38622-423184836_large.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <span class="hero-badge" data-lang="hero_badge">Experiencias Inolvidables</span>
+                <h1 class="hero-title" data-lang="hero_title">
+                    Descubre la Magia de <span class="highlight">Medellín</span> Como Nunca Antes
+                </h1>
+                <p class="hero-subtitle" data-lang="hero_subtitle">
+                    Tours personalizados, experiencias VIP y aventuras únicas en la ciudad de la eterna primavera
+                </p>
+                <div class="hero-buttons">
+                    <a href="#tours" class="btn btn-primary btn-lg" data-lang="hero_book">
+                        <i class="fas fa-calendar-check"></i> Reservar Ahora
+                    </a>
+                    <a href="#nosotros" class="btn btn-outline btn-lg" data-lang="hero_learn">
+                        <i class="fas fa-play-circle"></i> Conocer Más
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label" data-lang="stat_travelers">Viajeros Felices</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label" data-lang="stat_tours">Tours Únicos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4.9</span>
+                        <span class="stat-label" data-lang="stat_rating">Calificación</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span data-lang="scroll_down">Desliza hacia abajo</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/34672533183" class="whatsapp-float" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip" data-lang="whatsapp_chat">¡Chatea con nosotros!</span>
+    </a>
+
+    <!-- About Section -->
+    <section class="about section" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-lang="about_badge">Nuestra Historia</span>
+                <h2 class="section-title" data-lang="about_title">Más Que Una Agencia de Tours</h2>
+                <p class="section-subtitle" data-lang="about_subtitle">
+                    Somos apasionados locales comprometidos con mostrarte la verdadera esencia de Medellín
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 data-lang="about_heading">Una Historia de Pasión y Confianza</h3>
+                        <p data-lang="about_p1">
+                            Nacimos del amor por nuestra tierra y el deseo de compartir la transformación increíble que ha vivido Medellín. 
+                            Cada tour está diseñado con cuidado, pensando en tu seguridad, comodidad y en crear recuerdos que durarán toda la vida.
+                        </p>
+                        <p data-lang="about_p2">
+                            Nuestro equipo está formado por guías locales certificados, expertos en historia, cultura y aventuras. 
+                            Conocemos cada rincón, cada historia, cada secreto que hace de Medellín un destino único.
+                        </p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span data-lang="feature_safety">Seguridad Garantizada</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-graduate"></i>
+                                <span data-lang="feature_guides">Guías Certificados</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-heart"></i>
+                                <span data-lang="feature_passion">Pasión Local</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-award"></i>
+                                <span data-lang="feature_quality">Calidad Premium</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#contacto" class="btn btn-primary" data-lang="about_cta">
+                            <i class="fas fa-envelope"></i> Contáctanos
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-images">
+                    <div class="image-grid">
+                        <div class="image-card large">
+                            <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=600" alt="Medellín landscape" loading="lazy">
+                            <div class="image-overlay">
+                                <span data-lang="img_medellin">Medellín</span>
+                            </div>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1583531352515-8884af319dc1?w=400" alt="Coffee tour" loading="lazy">
+                            <div class="image-overlay">
+                                <span data-lang="img_coffee">Café</span>
+                            </div>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1534234828563-02511c750b62?w=400" alt="Guatapé" loading="lazy">
+                            <div class="image-overlay">
+                                <span data-lang="img_guatape">Guatapé</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section class="tours section" id="tours">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-lang="tours_badge">Nuestras Experiencias</span>
+                <h2 class="section-title" data-lang="tours_title">Tours Destacados</h2>
+                <p class="section-subtitle" data-lang="tours_subtitle">
+                    Elige tu aventura perfecta entre nuestras experiencias más populares
+                </p>
+            </div>
+            
+            <!-- Filters -->
+            <div class="tours-filters">
+                <button class="filter-btn active" data-filter="all" data-lang="filter_all">Todos</button>
+                <button class="filter-btn" data-filter="cultural" data-lang="filter_cultural">Cultural</button>
+                <button class="filter-btn" data-filter="adventure" data-lang="filter_adventure">Aventura</button>
+                <button class="filter-btn" data-filter="vip" data-lang="filter_vip">VIP</button>
+                <button class="filter-btn" data-filter="nature" data-lang="filter_nature">Naturaleza</button>
+            </div>
+            
+            <!-- Tours Grid -->
+            <div class="tours-grid">
+                <!-- Tour Card 1: Comuna 13 -->
+                <div class="tour-card" data-category="cultural">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1629837798348-2e6e6e2e5e5e?w=600" alt="Comuna 13 Tour" loading="lazy">
+                        <div class="tour-badge" data-lang="badge_popular">Popular</div>
+                        <button class="tour-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span class="tour-duration"><i class="far fa-clock"></i> 4 horas</span>
+                            <span class="tour-group"><i class="fas fa-users"></i> Máx 12</span>
+                        </div>
+                        <h3 class="tour-title" data-lang="tour_comuna13_title">Comuna 13: Arte y Transformación</h3>
+                        <p class="tour-description" data-lang="tour_comuna13_desc">
+                            Descubre la historia de transformación más inspiradora del mundo a través de graffiti, escaleras eléctricas y cultura urbana.
+                        </p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_guide">Guía local</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_transport">Transporte</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_snack">Refrigerio</span></span>
+                        </div>
+                        <div class="tour-footer">
+                            <div class="tour-price">
+                                <span class="price-old">$80,000</span>
+                                <span class="price-new">$65,000</span>
+                                <span class="price-currency">COP</span>
+                            </div>
+                            <button class="btn btn-primary btn-book" data-lang="tour_book">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour Card 2: Guatapé -->
+                <div class="tour-card" data-category="nature">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=600" alt="Guatapé Tour" loading="lazy">
+                        <button class="tour-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span class="tour-duration"><i class="far fa-clock"></i> 8 horas</span>
+                            <span class="tour-group"><i class="fas fa-users"></i> Máx 15</span>
+                        </div>
+                        <h3 class="tour-title" data-lang="tour_guatape_title">Guatapé y Piedra del Peñol</h3>
+                        <p class="tour-description" data-lang="tour_guatape_desc">
+                            Explora el pueblo más colorido de Colombia y escala la icónica Piedra del Peñol con vistas panorámicas increíbles.
+                        </p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_guide">Guía local</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_transport">Transporte</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_lunch">Almuerzo</span></span>
+                        </div>
+                        <div class="tour-footer">
+                            <div class="tour-price">
+                                <span class="price-old">$150,000</span>
+                                <span class="price-new">$120,000</span>
+                                <span class="price-currency">COP</span>
+                            </div>
+                            <button class="btn btn-primary btn-book" data-lang="tour_book">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour Card 3: Coffee Tour -->
+                <div class="tour-card" data-category="cultural">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1524350876685-274059332603?w=600" alt="Coffee Tour" loading="lazy">
+                        <div class="tour-badge premium" data-lang="badge_premium">Premium</div>
+                        <button class="tour-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span class="tour-duration"><i class="far fa-clock"></i> 6 horas</span>
+                            <span class="tour-group"><i class="fas fa-users"></i> Máx 8</span>
+                        </div>
+                        <h3 class="tour-title" data-lang="tour_coffee_title">Experiencia del Café</h3>
+                        <p class="tour-description" data-lang="tour_coffee_desc">
+                            Sumérgete en la cultura cafetera colombiana. Visita una finca tradicional, aprende el proceso y degusta los mejores cafés.
+                        </p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_guide">Guía experto</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_transport">Transporte</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_tasting">Degustación</span></span>
+                        </div>
+                        <div class="tour-footer">
+                            <div class="tour-price">
+                                <span class="price-old">$180,000</span>
+                                <span class="price-new">$150,000</span>
+                                <span class="price-currency">COP</span>
+                            </div>
+                            <button class="btn btn-primary btn-book" data-lang="tour_book">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour Card 4: Paragliding -->
+                <div class="tour-card" data-category="adventure">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1533587851505-d119c10e6f8e?w=600" alt="Paragliding" loading="lazy">
+                        <button class="tour-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span class="tour-duration"><i class="far fa-clock"></i> 3 horas</span>
+                            <span class="tour-group"><i class="fas fa-users"></i> Máx 6</span>
+                        </div>
+                        <h3 class="tour-title" data-lang="tour_paragliding_title">Parapente sobre Medellín</h3>
+                        <p class="tour-description" data-lang="tour_paragliding_desc">
+                            Vive la adrenalina de volar sobre el Valle de Aburrá con instructores certificados y vistas espectaculares.
+                        </p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_equipment">Equipo completo</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_instructor">Instructor</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_photos">Fotos incluidas</span></span>
+                        </div>
+                        <div class="tour-footer">
+                            <div class="tour-price">
+                                <span class="price-old">$200,000</span>
+                                <span class="price-new">$170,000</span>
+                                <span class="price-currency">COP</span>
+                            </div>
+                            <button class="btn btn-primary btn-book" data-lang="tour_book">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour Card 5: Pablo Escobar -->
+                <div class="tour-card" data-category="cultural">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1599587424239-1a8976d8c233?w=600" alt="Historical Tour" loading="lazy">
+                        <button class="tour-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span class="tour-duration"><i class="far fa-clock"></i> 5 horas</span>
+                            <span class="tour-group"><i class="fas fa-users"></i> Máx 10</span>
+                        </div>
+                        <h3 class="tour-title" data-lang="tour_history_title">Medellín: Historia y Transformación</h3>
+                        <p class="tour-description" data-lang="tour_history_desc">
+                            Un recorrido respetuoso por la historia compleja de Medellín, desde los años difíciles hasta la increíble transformación actual.
+                        </p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_guide">Guía historiador</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_transport">Transporte</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_museum">Museo</span></span>
+                        </div>
+                        <div class="tour-footer">
+                            <div class="tour-price">
+                                <span class="price-old">$140,000</span>
+                                <span class="price-new">$110,000</span>
+                                <span class="price-currency">COP</span>
+                            </div>
+                            <button class="btn btn-primary btn-book" data-lang="tour_book">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour Card 6: City Tour -->
+                <div class="tour-card" data-category="cultural">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1583997025581-940097fe6f9c?w=600" alt="City Tour" loading="lazy">
+                        <button class="tour-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span class="tour-duration"><i class="far fa-clock"></i> 4 horas</span>
+                            <span class="tour-group"><i class="fas fa-users"></i> Máx 12</span>
+                        </div>
+                        <h3 class="tour-title" data-lang="tour_city_title">City Tour Medellín</h3>
+                        <p class="tour-description" data-lang="tour_city_desc">
+                            Recorre los puntos icónicos de la ciudad: Plaza Botero, Parque de las Luces, Metrocable y más.
+                        </p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_guide">Guía bilingüe</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_transport">Transporte</span></span>
+                            <span><i class="fas fa-check"></i> <span data-lang="tour_include_drink">Bebida</span></span>
+                        </div>
+                        <div class="tour-footer">
+                            <div class="tour-price">
+                                <span class="price-old">$100,000</span>
+                                <span class="price-new">$85,000</span>
+                                <span class="price-currency">COP</span>
+                            </div>
+                            <button class="btn btn-primary btn-book" data-lang="tour_book">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tours-cta">
+                <a href="#contacto" class="btn btn-outline btn-lg" data-lang="tours_view_all">
+                    <i class="fas fa-calendar"></i> Ver Todos los Tours
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP Section -->
+    <section class="vip section" id="vip">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge gold" data-lang="vip_badge">Exclusivo</span>
+                <h2 class="section-title" data-lang="vip_title">Experiencia VIP Premium</h2>
+                <p class="section-subtitle" data-lang="vip_subtitle">
+                    Para quienes buscan lo extraordinario. Servicios personalizados de lujo.
+                </p>
+            </div>
+            
+            <div class="vip-grid">
+                <div class="vip-card featured">
+                    <div class="vip-header">
+                        <h3 data-lang="vip_package_title">Paquete VIP Completo</h3>
+                        <div class="vip-price">
+                            <span class="price-from" data-lang="vip_price_from">Desde</span>
+                            <span class="price-amount">$2,500,000</span>
+                            <span class="price-period" data-lang="vip_price_period">por persona</span>
+                        </div>
+                    </div>
+                    <div class="vip-content">
+                        <ul class="vip-features">
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_1">Transporte privado de lujo</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_2">Guía personal dedicado</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_3">Acceso VIP a todas las atracciones</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_4">Restaurantes gourmet incluidos</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_5">Fotógrafo profesional</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_6">Itinerario 100% personalizado</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-lang="vip_feature_7">Asistencia 24/7</span></li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-gold btn-lg" data-lang="vip_cta">
+                            <i class="fas fa-crown"></i> Solicitar Experiencia VIP
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="vip-services">
+                    <div class="vip-service">
+                        <i class="fas fa-car"></i>
+                        <h4 data-lang="vip_service_1">Transporte Premium</h4>
+                        <p data-lang="vip_service_1_desc">Vehículos de lujo con chofer privado</p>
+                    </div>
+                    <div class="vip-service">
+                        <i class="fas fa-concierge-bell"></i>
+                        <h4 data-lang="vip_service_2">Concierge 24/7</h4>
+                        <p data-lang="vip_service_2_desc">Asistencia personalizada en todo momento</p>
+                    </div>
+                    <div class="vip-service">
+                        <i class="fas fa-utensils"></i>
+                        <h4 data-lang="vip_service_3">Dining Exclusivo</h4>
+                        <p data-lang="vip_service_3_desc">Reservas en los mejores restaurantes</p>
+                    </div>
+                    <div class="vip-service">
+                        <i class="fas fa-camera"></i>
+                        <h4 data-lang="vip_service_4">Fotografía Pro</h4>
+                        <p data-lang="vip_service_4_desc">Captura cada momento con calidad profesional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-lang="gallery_badge">Nuestra Galería</span>
+                <h2 class="section-title" data-lang="gallery_title">Momentos Inolvidables</h2>
+                <p class="section-subtitle" data-lang="gallery_subtitle">
+                    Explora las experiencias que han vivido nuestros viajeros
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800" alt="Medellín view" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Valle de Aburrá</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1583531352515-8884af319dc1?w=400" alt="Coffee" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Tour de Café</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1534234828563-02511c750b62?w=400" alt="Guatapé" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Guatapé</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533587851505-d119c10e6f8e?w=400" alt="Paragliding" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Parapente</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall">
+                    <img src="https://images.unsplash.com/photo-1599587424239-1a8976d8c233?w=400" alt="Comuna 13" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Comuna 13</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1583997025581-940097fe6f9c?w=400" alt="Plaza Botero" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Plaza Botero</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-lang="testimonials_badge">Testimonios</span>
+                <h2 class="section-title" data-lang="testimonials_title">Lo Que Dicen Nuestros Viajeros</h2>
+                <p class="section-subtitle" data-lang="testimonials_subtitle">
+                    Experiencias reales de personas reales
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-lang="testimonial_1">
+                        "La mejor experiencia de mi viaje a Colombia. El tour de Guatapé fue increíble y nuestro guía nos hizo sentir como familia. ¡Totalmente recomendado!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah M." loading="lazy">
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <span>Estados Unidos</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-lang="testimonial_2">
+                        "El servicio VIP superó todas mis expectativas. Transporte impecable, restaurantes increíbles y una atención al detalle que no he visto en ningún otro lugar."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos R." loading="lazy">
+                        <div class="author-info">
+                            <h4>Carlos R.</h4>
+                            <span>España</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-lang="testimonial_3">
+                        "Nunca pensé que un tour histórico pudiera ser tan emocionante. Aprendimos tanto sobre la transformación de Medellín. Los guías son extraordinarios."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma L." loading="lazy">
+                        <div class="author-info">
+                            <h4>Emma L.</h4>
+                            <span>Reino Unido</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-trust">
+                <div class="trust-badge">
+                    <i class="fab fa-google"></i>
+                    <span>4.9/5 en Google Reviews</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fab fa-tripadvisor"></i>
+                    <span>Certificado de Excelencia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-lang="blog_badge">Blog</span>
+                <h2 class="section-title" data-lang="blog_title">Guías y Consejos de Viaje</h2>
+                <p class="section-subtitle" data-lang="blog_subtitle">
+                    Todo lo que necesitas saber antes de tu visita a Medellín
+                </p>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=600" alt="Medellín guide" loading="lazy">
+                        <span class="blog-category" data-lang="blog_cat_guide">Guía</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Mar 1, 2024</span>
+                            <span><i class="far fa-clock"></i> 8 min</span>
+                        </div>
+                        <h3 class="blog-title" data-lang="blog_1_title">10 Cosas Que Hacer en Medellín Tu Primera Vez</h3>
+                        <p class="blog-excerpt" data-lang="blog_1_excerpt">
+                            Descubre los imperdibles de la ciudad de la eterna primavera. Desde Plaza Botero hasta el Metrocable.
+                        </p>
+                        <a href="#" class="blog-link" data-lang="blog_read">Leer Más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1583531352515-8884af319dc1?w=600" alt="Coffee culture" loading="lazy">
+                        <span class="blog-category" data-lang="blog_cat_culture">Cultura</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Feb 25, 2024</span>
+                            <span><i class="far fa-clock"></i> 6 min</span>
+                        </div>
+                        <h3 class="blog-title" data-lang="blog_2_title">La Cultura del Café en Colombia: Una Guía Completa</h3>
+                        <p class="blog-excerpt" data-lang="blog_2_excerpt">
+                            Todo sobre el oro verde de Colombia y cómo vivir la experiencia cafetera auténtica.
+                        </p>
+                        <a href="#" class="blog-link" data-lang="blog_read">Leer Más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1534234828563-02511c750b62?w=600" alt="Safety guide" loading="lazy">
+                        <span class="blog-category" data-lang="blog_cat_safety">Seguridad</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Feb 20, 2024</span>
+                            <span><i class="far fa-clock"></i> 5 min</span>
+                        </div>
+                        <h3 class="blog-title" data-lang="blog_3_title">Guía de Seguridad para Turistas en Medellín</h3>
+                        <p class="blog-excerpt" data-lang="blog_3_excerpt">
+                            Consejos prácticos para disfrutar de Medellín de forma segura y sin preocupaciones.
+                        </p>
+                        <a href="#" class="blog-link" data-lang="blog_read">Leer Más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="blog-cta">
+                <a href="#" class="btn btn-outline" data-lang="blog_view_all">
+                    <i class="fas fa-newspaper"></i> Ver Todos los Artículos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div class="modal booking-modal" id="bookingModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <h2 data-lang="booking_title">Reserva Tu Experiencia</h2>
+                <p data-lang="booking_subtitle">Completa el formulario y te confirmaremos en menos de 24 horas</p>
+            </div>
+            
+            <form class="booking-form" id="bookingForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tourSelect" data-lang="form_tour">Tour Seleccionado</label>
+                        <select id="tourSelect" required>
+                            <option value="" data-lang="form_select_tour">Selecciona un tour</option>
+                            <option value="comuna13">Comuna 13 - $65,000 COP</option>
+                            <option value="guatape">Guatapé - $120,000 COP</option>
+                            <option value="coffee">Café - $150,000 COP</option>
+                            <option value="paragliding">Parapente - $170,000 COP</option>
+                            <option value="history">Historia - $110,000 COP</option>
+                            <option value="city">City Tour - $85,000 COP</option>
+                            <option value="vip">VIP Premium - $2,500,000 COP</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tourDate" data-lang="form_date">Fecha</label>
+                        <input type="date" id="tourDate" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="participants" data-lang="form_participants">Número de Personas</label>
+                        <input type="number" id="participants" min="1" max="20" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="totalPrice" data-lang="form_total">Precio Total</label>
+                        <input type="text" id="totalPrice" readonly>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="name" data-lang="form_name">Nombre Completo</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email" data-lang="form_email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-lang="form_phone">Teléfono / WhatsApp</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" data-lang="form_message">Mensaje o Requerimientos Especiales</label>
+                    <textarea id="message" rows="4"></textarea>
+                </div>
+                
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        <span data-lang="form_terms">Acepto los términos y condiciones y la política de privacidad</span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg btn-block" data-lang="form_submit">
+                    <i class="fas fa-lock"></i> Continuar al Pago
+                </button>
+                
+                <p class="form-note" data-lang="form_note">
+                    <i class="fas fa-shield-alt"></i> Pago seguro con encriptación SSL
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-lang="contact_badge">Contacto</span>
+                <h2 class="section-title" data-lang="contact_title">¿Listo Para Tu Aventura?</h2>
+                <p class="section-subtitle" data-lang="contact_subtitle">
+                    Contáctanos y te ayudaremos a planear la experiencia perfecta
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-lang="contact_address_title">Dirección</h4>
+                            <p data-lang="contact_address">El Poblado, Medellín, Colombia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-lang="contact_phone_title">Teléfono</h4>
+                            <p>+34 672 533 183</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-lang="contact_email_title">Email</h4>
+                            <p>info@westcoltours.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4 data-lang="contact_whatsapp_title">WhatsApp</h4>
+                            <p>+34 672 533 183</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName" data-lang="form_name">Nombre</label>
+                                <input type="text" id="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail" data-lang="form_email">Email</label>
+                                <input type="email" id="contactEmail" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactSubject" data-lang="form_subject">Asunto</label>
+                            <input type="text" id="contactSubject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage" data-lang="form_message">Mensaje</label>
+                            <textarea id="contactMessage" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg btn-block" data-lang="contact_send">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63477.75786589162!2d-75.6089235421875!3d6.244202999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4681f7a30b6b0b%3A0x732f0e0e0e0e0e0e!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1234567890" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" alt="Westcol Tours Logo" style="height: 80px; width: auto;" onerror="this.style.display='none'; this.parentElement.querySelector('.logo-text-fallback').style.display='flex';">
+                        <span class="logo-text-fallback" style="display: none;">
+                            <span class="logo-icon"><i class="fas fa-mountain"></i></span>
+                            <span class="logo-text">Westcol<span class="highlight">Tours</span></span>
+                        </span>
+                    </a>
+                    <p data-lang="footer_about">
+                        Somos tu puerta de entrada a las experiencias más auténticas de Medellín. 
+                        Comprometidos con tu seguridad, comodidad y recuerdos inolvidables.
+                    </p>
+                    <div class="footer-payment">
+                        <span data-lang="footer_payment">Métodos de pago:</span>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-lang="footer_quick">Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio" data-lang="nav_home">Inicio</a></li>
+                        <li><a href="#tours" data-lang="nav_tours">Tours</a></li>
+                        <li><a href="#vip" data-lang="nav_vip">VIP</a></li>
+                        <li><a href="#blog" data-lang="nav_blog">Blog</a></li>
+                        <li><a href="#contacto" data-lang="nav_contact">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-lang="footer_tours">Tours Populares</h4>
+                    <ul>
+                        <li><a href="#tours" data-lang="tour_comuna13_title">Comuna 13</a></li>
+                        <li><a href="#tours" data-lang="tour_guatape_title">Guatapé</a></li>
+                        <li><a href="#tours" data-lang="tour_coffee_title">Café</a></li>
+                        <li><a href="#tours" data-lang="tour_paragliding_title">Parapente</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4 data-lang="footer_newsletter">Newsletter</h4>
+                    <p data-lang="footer_newsletter_desc">Recibe ofertas exclusivas y consejos de viaje</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 Westcol Tours. <span data-lang="footer_rights">Todos los derechos reservados.</span></p>
+                    <div class="legal-links">
+                        <a href="#" data-lang="footer_privacy">Política de Privacidad</a>
+                        <a href="#" data-lang="footer_terms">Términos y Condiciones</a>
+                        <a href="#" data-lang="footer_cookies">Política de Cookies</a>
+                    </div>
+                </div>
+                <div class="footer-developer">
+                    <p>Designed with <i class="fas fa-heart"></i> in Medellín</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
